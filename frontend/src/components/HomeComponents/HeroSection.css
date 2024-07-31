@@ -1,15 +1,20 @@
 /* Styles for the hero section */
 .hero-section {
     margin-top: 100px;
+    
     /* border: 3px solid red; */
     color: #4b5563; /* text-gray-600 */
     font-family: 'Helvetica Neue', Arial, sans-serif; /* body-font */
+    width: 100vw;
+    margin-right: 0;
+    margin-left: 0;
   }
+ 
   
   /* Container styles */
   .container {
     /* border: 3px solid blue; */
-    max-width: 1500px;
+    width: 100%;
     margin: 0 auto;
     padding: 24px 5%;
     display: flex;
@@ -28,7 +33,6 @@
   /* Styles for text content */
   .text-content {
     /* border: 3px solid green; */
-
     flex: 1;
     text-align: left;
     margin-bottom: 16px;
@@ -36,11 +40,21 @@
   
   @media (min-width: 768px) {
     .text-content {
+      font-size: 0.8rem;
       text-align: left;
       margin-bottom: 0;
       padding-right: 16px;
     }
   }
+  @media (max-width: 768px) {
+    .text-content {
+      font-size: 0.8rem;
+      text-align: center;
+      margin-bottom: 0;
+      padding-right: 16px;
+    }
+  }
+  
   
   .title {
     font-size: 2rem; /* text-3xl */
@@ -49,15 +63,31 @@
     color: #1f2937; /* text-gray-900 */
   }
   
+  @media (max-width: 447px) {
+    .title {
+      font-size: 1.5rem; /* sm:text-4xl */
+    }
+  }
   @media (min-width: 640px) {
+    .title {
+      font-size: 2rem; /* sm:text-4xl */
+    }
+  }
+  @media (min-width:768px) {
     .title {
       font-size: 2.5rem; /* sm:text-4xl */
     }
   }
-  
-  .hidden-on-small-screen {
-    display: none;
+  @media (min-width:1438px) {
+    .title {
+      font-size: 3rem; /* sm:text-4xl */
+    }
   }
+  
+  
+  /* .hidden-on-small-screen {
+    display: none;
+  } */
   
   @media (min-width: 1024px) {
     .hidden-on-small-screen {
@@ -74,6 +104,11 @@
   .button-group {
     display: flex;
    
+  }
+  @media (max-width:768px){
+    .button-group{
+      justify-content: center;
+    }
   }
   .btn {
     display: inline-flex;

@@ -9,8 +9,8 @@ const HeroSection = () => {
         <div className="text-content">
           <h1 className="title">
           Share and Support:
-            <br className="hidden-on-small-screen" />
-            Food for All, <br/> Individuals and Organizations
+           
+            Food for All, Individuals and Organizations
           </h1>
           <p className="description">
           Join ShareMeal to connect surplus food with those in need. Individuals and organizations alike can easily share and collect meals, helping to reduce food waste and support the community. Start making a difference today!
