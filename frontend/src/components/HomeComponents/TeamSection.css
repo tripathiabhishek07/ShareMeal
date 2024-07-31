@@ -1,5 +1,4 @@
 .team-section {
-  margin-top: 4rem;
   margin-bottom: 2rem;
   color: #4a4a4a;
   font-family: sans-serif;
@@ -22,7 +21,7 @@
 
 .title2 {
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 2rem; /* Default font size */
   font-weight: 500;
   color: #1a202c;
 }
@@ -31,7 +30,7 @@
   width: 66.666667%;
   margin: auto;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1rem; /* Default font size */
 }
 
 /* Team grid setup */
@@ -39,12 +38,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
 
 /* Team member card */
 .team-member {
-  padding: 8px;
-  flex: 1 1 33.333333%; /* 3 cards per row */
+  /* border: 2px solid grey; */
+  display: flex;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  width: calc(33.3333% - 16px); /* Adjusted to include gap */
   box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
@@ -52,7 +55,7 @@
 .member-info {
   display: flex;
   align-items: center;
-  border: 1px solid #e5e7eb;
+  
   padding: 16px;
   border-radius: 8px;
 }
@@ -75,10 +78,12 @@
 .member-name {
   color: #1a202c;
   font-weight: 500;
+  font-size: 1rem; /* Default font size */
 }
 
 .member-role {
   color: #6b7280;
+  font-size: 0.875rem; /* Default font size */
 }
 
 /* Responsive Styles */
@@ -86,9 +91,8 @@
   .description2 {
       width: 80%; /* Adjust width for medium screens */
   }
-
   .team-member {
-      flex: 1 1 50%; /* 2 cards per row */
+    width: calc(50% - 16px); /* Adjust for 2 cards per row */
   }
 }
 
@@ -96,18 +100,39 @@
   .description2 {
       width: 90%; /* Adjust width for smaller screens */
   }
-
   .team-member {
-      flex: 1 1 100%; /* 1 card per row */
+    width: calc(50% - 16px); /* Adjust for 2 cards per row */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 571px) {
   .title2 {
       font-size: 1.5rem; /* Reduce font size on very small screens */
   }
 
   .description2 {
       font-size: 0.875rem; /* Adjust font size for readability */
+  }
+
+  .team-member {
+    width: 45%; /* Full width for each card */
+    justify-content: center;
+    
+  }
+
+  .member-name {
+    font-size: 0.875rem; /* Adjust font size */
+  }
+
+  .member-role {
+    font-size: 0.75rem; /* Adjust font size */
+  }
+  .member-info{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .member-img{
+    margin-right: 0;
   }
 }

@@ -1,7 +1,7 @@
 .feature-section {
     /* border: 3px solid red; */
     margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
     color: #4a5568;
     font-family: Arial, sans-serif;
   }
@@ -11,13 +11,12 @@
     }
   }
   
-  .container1 {
-   
-    border: 3px solid red;
+  .container1 {   
+    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
     padding: 2rem 1.25rem;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
   }
   
@@ -94,11 +93,8 @@
     box-sizing: border-box; /* Ensure padding and border are included in the width */
      /* Add margin around each card */
      border-radius: 15px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: 0 0.2rem;
-}
-@media(max-width:768px){
-
 }
 
 .card-image1 {
@@ -124,7 +120,7 @@
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .card1 {
-        width: 31%; /* 3 cards per row */
+        width: 45%; /* 3 cards per row */
     }
 }
 
