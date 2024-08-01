@@ -17,7 +17,6 @@ export default function Header() {
   return (
     <header className={classes.header}>
       <div className={classes.container}>
-        
         <div className={classes.hamburger} onClick={toggleMenu}>
           {menuOpen ? (
             <span className={classes.close}>&#x2715;</span> // Close icon
@@ -28,27 +27,37 @@ export default function Header() {
         <Link to="/" className={classes.logo}>
           ShareMeal
         </Link>
-        
       </div>
       <nav className={`${classes.nav} ${menuOpen ? classes.open : ""}`}>
-          <ul>
-            {user ? (
-              <li>
-                <DropdownMenu user={user} logout={logout} isOpen={menuOpen} />
-              </li>
-            ) : (
-              <Link to="/login">Login</Link>
-            )}
+        <ul>
+          {user ? (
             <li>
-              <Link to="/cart">
-                Cart
-                {cart.totalCount > 0 && (
-                  <span className={classes.cart_count}>{cart.totalCount}</span>
-                )}
-              </Link>
+              <ul>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/about">About</a>
+                </li>
+                <li>
+                  <a href="/">Contact Us</a>
+                </li>
+                <DropdownMenu user={user} logout={logout} isOpen={menuOpen} />
+              </ul>
             </li>
-          </ul>
-        </nav>
+          ) : (
+            <Link to="/login">Login</Link>
+          )}
+          <li>
+            <Link to="/cart">
+              Cart
+              {cart.totalCount > 0 && (
+                <span className={classes.cart_count}>{cart.totalCount}</span>
+              )}
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
