@@ -16,25 +16,25 @@ const FeatureSection = () => {
         </div>
         <div className="card-container1">
           <div className="card1">
-            <img className="card-image1" src="https://dummyimage.com/720x400" alt="content" />
+            <img className="card-image1" src="/images/upload.jpg" alt="content" />
             
             <h2 className="card-title1">List Your Food</h2>
             <p className="card-description1">Upload details about the food you have available, including type, quantity, and pickup location. It’s simple and quick!</p>
           </div>
           <div className="card1">
-            <img className="card-image1" src="https://dummyimage.com/721x401" alt="content" />
+            <img className="card-image1" src="/images/meal.jpg" alt="content" />
             
             <h2 className="card-title1"> Find Available Meals</h2>
             <p className="card-description1">Browse through the food listings to find what you need. Check out the details to easily select and request the meals</p>
           </div>
           <div className="card1">
-            <img className="card-image1" src="https://dummyimage.com/722x402" alt="content" />
+            <img className="card-image1" src="/images/connect.jpg" alt="content" />
             
             <h2 className="card-title1">Connect and Arrange Pickup</h2>
             <p className="card-description1">Connect to the donors and arrange your pickup to collect food from them.</p>
           </div>
           <div className="card1">
-            <img className="card-image1" src="https://dummyimage.com/723x403" alt="content" />
+            <img className="card-image1" src="/images/join.jpg" alt="content" />
             
             <h2 className="card-title1">Join as an Organization</h2>
             <p className="card-description1">Register your organization to collect surplus food and distribute it to those in need. Make a greater impact on your community.</p>

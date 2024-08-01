@@ -10,7 +10,7 @@ export default function Dashboard() {
     <div className={classes.container}>
       <div className={classes.menu}>
         {allItems
-          .filter(item => user.isAdmin || !item.forAdmin)
+          .filter(item => user.isAdmin || !item.forAdmin || !user.isAdmin)
           .map(item => (
             <Link
               key={item.title}

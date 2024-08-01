@@ -26,7 +26,7 @@ const HeroSection = () => {
           <img
             className="hero-image"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="/images/heroImage.jpg"
           />
         </div>
       </div>

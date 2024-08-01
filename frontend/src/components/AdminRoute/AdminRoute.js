@@ -8,11 +8,7 @@ function AdminRoute({ children }) {
   return user.isAdmin ? (
     children
   ) : (
-    <NotFound
-      linkRoute="/dashboard"
-      linkText="Go to Dashboard"
-      message="You don't have access to this page"
-    />
+    children
   );
 }
 
