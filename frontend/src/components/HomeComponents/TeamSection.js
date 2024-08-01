@@ -12,7 +12,7 @@ const TeamSection = () => {
         <div className="team-grid">
           <div className="team-member">
             <div className="member-info">
-              <img alt="team" className="member-img" src="https://dummyimage.com/80x80" />
+              <img alt="team" className="member-img" src="/images/abhi.jpg" />
               <div className="member-details">
                 <h2 className="member-name">Abhishek Tripathi</h2>
                 <p className="member-role">Web Designer and Developer</p>
@@ -21,7 +21,7 @@ const TeamSection = () => {
           </div>
           <div className="team-member">
             <div className="member-info">
-              <img alt="team" className="member-img" src="https://dummyimage.com/84x84" />
+              <img alt="team" className="member-img" src="/images/shani.jpg" />
               <div className="member-details">
                 <h2 className="member-name">Shani Soni</h2>
                 <p className="member-role">Web Designer</p>
@@ -30,7 +30,7 @@ const TeamSection = () => {
           </div>
           <div className="team-member">
             <div className="member-info">
-              <img alt="team" className="member-img" src="https://dummyimage.com/84x84" />
+              <img alt="team" className="member-img" src="/images/mohile.jpg" />
               <div className="member-details">
                 <h2 className="member-name">Abhishek Mohile</h2>
                 <p className="member-role">Content Manager</p>
@@ -39,7 +39,7 @@ const TeamSection = () => {
           </div>
           <div className="team-member">
             <div className="member-info">
-              <img alt="team" className="member-img" src="https://dummyimage.com/84x84" />
+              <img alt="team" className="member-img" src="/images/manish.jpg" />
               <div className="member-details">
                 <h2 className="member-name">Manish Kashyap</h2>
                 <p className="member-role">Content Manager</p>

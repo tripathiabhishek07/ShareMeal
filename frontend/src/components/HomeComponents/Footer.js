@@ -6,9 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container3">
         <a className="logo" href="/">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="logo-icon" viewBox="0 0 24 24">
-            <path d="give the path of your image"></path>
-          </svg>
+          <img className='logo-icon' src="/images/logo.png" alt="content" />
           <span className="logo-text">ShareMeal</span>
         </a>
         <p className="copyright">© 2024 ShareMeal —
