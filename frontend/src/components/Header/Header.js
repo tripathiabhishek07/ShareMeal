@@ -42,6 +42,9 @@ export default function Header() {
                 <li>
                   <a href="/">Contact Us</a>
                 </li>
+                <li>
+                  <a href="/dashboard">Dashboard</a>
+                </li>
                 <DropdownMenu user={user} logout={logout} isOpen={menuOpen} />
               </ul>
             </li>

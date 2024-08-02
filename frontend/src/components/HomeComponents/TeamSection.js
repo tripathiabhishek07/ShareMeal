@@ -41,16 +41,16 @@ const TeamSection = () => {
             <div className="member-info">
               <img alt="team" className="member-img" src="/images/manish.jpg" />
               <div className="member-details">
-                <h2 className="member-name">Manish Kashyap</h2>
+                <h2 className="member-name">Manish Chauhan</h2>
                 <p className="member-role">Content Manager</p>
               </div>
             </div>
           </div>
           <div className="team-member">
             <div className="member-info">
-              <img alt="team" className="member-img" src="https://dummyimage.com/84x84" />
+              <img alt="team" className="member-img" src="/images/prashant.jpg" />
               <div className="member-details">
-                <h2 className="member-name">Someone</h2>
+                <h2 className="member-name">Prashant Pathak</h2>
                 <p className="member-role">Content Manager</p>
               </div>
             </div>

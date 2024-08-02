@@ -5,7 +5,8 @@
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
-  /* border: 3px solid red; */
+  max-width: 1500px;
+  /* border: 0px solid red; */
 }
 
 .list li a {
