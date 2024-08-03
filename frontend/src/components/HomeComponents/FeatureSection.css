@@ -13,7 +13,9 @@
     color: var(--primary-color);
     font-family: Arial, sans-serif;
     padding: 24px 5%;
+    margin-top: 1rem;
     margin-bottom: 2rem;
+    
   }
   @media (max-width:768px){
     .feature-section{
