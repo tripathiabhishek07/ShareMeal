@@ -18,7 +18,7 @@ const HeroSection = () => {
           </p>
           <div className="button-group">
             <button className="btn primary-btn">Donate</button>
-            <Link to = "/homepage">
+            <Link to = "/admin/addFood">
             <button className="btn secondary-btn">Collect</button>
             </Link>
           </div>

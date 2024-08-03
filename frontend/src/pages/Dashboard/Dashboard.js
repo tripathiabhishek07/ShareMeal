@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 export default function Dashboard() {
   const { user } = useAuth();
   const allItems = [
-    {
-      title: "Orders",
-      imageUrl: "/icons/orders.svg",
-      url: "/orders",
-      bgColor: "#ec407a",
-      color: "white",
-    },
+    // {
+    //   title: "Orders",
+    //   imageUrl: "/icons/orders.svg",
+    //   url: "/orders",
+    //   bgColor: "#ec407a",
+    //   color: "white",
+    // },
 
     {
       title: "Profile",
@@ -41,6 +41,7 @@ export default function Dashboard() {
     });
   }
   return (
+   
     <div className={classes.container}>
       <div className={classes.menu}>
         {allItems

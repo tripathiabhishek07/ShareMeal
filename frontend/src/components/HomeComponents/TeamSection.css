@@ -1,18 +1,20 @@
 .team-section {
   padding-top: 4rem;
-  margin-bottom: 2rem;
+  
   background-color: #000319;
   color: whitesmoke;
   font-family: sans-serif;
   /* border: 3px solid red; */
   margin:0;
   padding: 24px 5%;
+  
 }
 
 .container2 {
   margin-top: 0;
   max-width: 1500px;
   padding: 24px 16px;
+  margin-bottom: 6rem;
   
 }
 
@@ -50,7 +52,7 @@
 
 /* Team member card */
 .team-member {
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.4) 0px 8px 16px 0px;
+  box-shadow: rgba(150, 149, 149, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(237, 236, 236, 0.299) 0px 8px 16px 0px;
   border: 0.0001rem solid #53525277;
   /* border: 2px solid grey; */
   display: flex;

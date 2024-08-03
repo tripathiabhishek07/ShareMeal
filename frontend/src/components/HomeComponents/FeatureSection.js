@@ -30,7 +30,7 @@ const FeatureSection = () => {
           <div className="card1">
             <img className="card-image1" src="/images/connect.jpg" alt="content" />
             
-            <h2 className="card-title1">Connect and Pickup</h2>
+            <h2 className="card-title1">Connect and Arrange Pickup</h2>
             <p className="card-description1">Connect to the donors and arrange your pickup to collect food from them.</p>
           </div>
           <div className="card1">

@@ -8,7 +8,7 @@ export default function DropdownMenu({ user, logout }) {
       <Link to="/dashboard">{user.name}</Link>
       <div className={classes.menu}>
         <Link to="/profile">Profile</Link>
-        <Link to="/orders">Orders</Link>
+        {/* <Link to="/orders">Orders</Link> */}
         <a onClick={logout} href="/logout">Logout</a>
       </div>
     </div>

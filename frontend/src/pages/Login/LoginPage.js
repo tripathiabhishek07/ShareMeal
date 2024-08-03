@@ -53,7 +53,7 @@ export default function LoginPage() {
             error={errors.password}
           />
 
-          <Button type="submit" text="Login" />
+          <Button type="submit" text="Login" color="white" backgroundColor = "blue" />
 
           <div className={classes.register}>
             New user? &nbsp;
