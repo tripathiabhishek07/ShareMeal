@@ -7,7 +7,7 @@ const TeamSection = () => {
       <div className="container2">
         <div className="text-center2 mb-20">
           <h1 className="title2">Meet Our Team</h1>
-          <p className="description2">Our dedicated team is committed to reducing food waste and supporting communities. With diverse expertise in technology and outreach, we ensure ShareMeal connects surplus food effectively. Get to know us!</p>
+          <p className="description2">Our dedicated team is committed to reducing food waste and supporting communities. With diverse expertise in technology and outreach, we ensure ShareMeal connects surplus food effectively.<br></br> Get to know us!</p>
         </div>
         <div className="team-grid">
           <div className="team-member">

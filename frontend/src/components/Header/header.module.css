@@ -1,8 +1,9 @@
 .header {
   /* border: 2px solid grey; */
+  color:white;
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #010c20;
   padding: 10px 60px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -22,7 +23,7 @@
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  color: #333;
+  
   text-decoration: none;
 }
 
@@ -38,16 +39,16 @@ nav ul {
   border-radius: 0px 0px 10px 10px;
 }
 nav ul li ul li a{
-  color: black;
+  
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 nav ul li a{
-  color: black;
+  
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .cart_count {
   /* background-color: red; */
-  color: white;
+  
   border-radius: 50%;
   padding: 2px 8px;
   font-size: 0.8em;

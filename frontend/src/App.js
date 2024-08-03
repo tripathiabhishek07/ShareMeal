@@ -4,6 +4,7 @@ import Loading from './components/Loading/Loading';
 import { useLoading } from './hooks/useLoading';
 import { setLoadingInterceptor } from './interceptors/loadingInterceptor';
 import { useEffect } from 'react';
+import './App.css';
 
 function App() {
   const { showLoading, hideLoading } = useLoading();
@@ -13,11 +14,11 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className='appContainer'>
       <Loading />
       <Header />
       <AppRoutes />
-    </>
+   </div>
   );
 }
 

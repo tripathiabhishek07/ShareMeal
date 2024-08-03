@@ -1,9 +1,18 @@
+
+:root {
+  --primary-color: rgba(231, 231, 231, 0.92); 
+  /* --secondary-color: #2ecc71; 
+  --tertiary-color: #e74c3c;  */
+}
 .feature-section {
+  background-color: #000319;
+  
     /* border: 3px solid red; */
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-    color: #4a5568;
+    /* margin-top: 5rem; */
+    /* margin-bottom: 1rem; */
+    color: var(--primary-color);
     font-family: Arial, sans-serif;
+    padding: 24px 5%;
   }
   @media (max-width:768px){
     .feature-section{
@@ -35,6 +44,7 @@
   }
   
   .text-container1 {
+    color: var(--primary-color);
     display: flex;
     flex-direction: column;
     /* border: 2px solid blue; */
@@ -52,7 +62,7 @@
     /* border: 2px solid yellow; */
     font-size: 2rem;
     font-weight: 500;
-    color: #1f2937;
+    color: var(--primary-color);
     margin-bottom: 0.5rem;
   }
   
@@ -64,11 +74,13 @@
   }
   
   .description1 {
+    margin-top: -20px;
     /* border: 2px solid grey; */
     width: 50%;
+    color: #bec1dd;
     /* max-width: 50%; */
     line-height: 1.625;
-    color: #6b7280;
+   
   }
   @media (max-width:768px){
     .description1{
@@ -86,20 +98,29 @@
 }
 
 
+
 .card1 {
-    /* border: 0.5px solid red; */
+    /* border: 0.5px solid grey; */
     padding: 1rem;
-    width: 24%;
+    width: 22%;
     box-sizing: border-box; /* Ensure padding and border are included in the width */
      /* Add margin around each card */
      border-radius: 15px;
-     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.4) 0px 8px 16px 0px;
+     border: 0.0001rem solid #53525277;
     margin: 0 0.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform  0.3s ease-in-out;
+   background-color: #000319;
+    
+    color: var(--primary-color);
 }
-
+.card1:hover{
+  transform: scale(1.1);
+ 
+}
 .card-image1 {
   /* border: 2px solid red; */
     height: 10rem;
@@ -111,14 +132,17 @@
 }
 
 .card-title1 {
+  text-align: center;
     font-size: 1.125rem;
     font-weight: 500;
-    color: #1f2937;
+    color: white;
     margin-bottom: 0.5rem;
 }
 
 .card-description1 {
-    line-height: 1.625;
+  color: #bec1dd;
+  font-size: 0.8rem;
+    line-height: 1.4;
     text-align: center;
 }
 
