@@ -17,8 +17,10 @@ const HeroSection = () => {
           Join ShareMeal to connect surplus food with those in need. Individuals and organizations alike can easily share and collect meals, helping to reduce food waste and support the community. Start making a difference today!
           </p>
           <div className="button-group">
+            <Link to="/admin/addFood">
             <button className="btn primary-btn">Donate</button>
-            <Link to = "/admin/addFood">
+            </Link>
+            <Link to = "/homepage">
             <button className="btn secondary-btn">Collect</button>
             </Link>
           </div>

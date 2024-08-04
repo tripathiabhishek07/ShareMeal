@@ -1,16 +1,25 @@
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 10rem;
+  /* border: 2px solid red; */
 }
 
 .list {
+  /* border: 2px solid green; */
   margin: 1rem;
   max-width: 70rem;
 }
+.list h1{
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+
 
 a.add_food {
+ 
   display: inline-block;
   background: darkred;
   color: white;
@@ -25,6 +34,10 @@ a.add_food:hover {
 
 .list_item {
   display: grid;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  /* border: 2px solid red; */
   grid-template-columns:
     minmax(5rem, 7rem)
     minmax(10rem, 20rem)
@@ -34,6 +47,8 @@ a.add_food:hover {
   height: 5rem;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(150, 149, 149, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(237, 236, 236, 0.299) 0px 8px 16px 0px;
+     border: 0.0001rem solid #53525277;
 }
 
 .list_item img {
