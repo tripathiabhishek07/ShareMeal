@@ -58,7 +58,8 @@ export default function FoodEditPage() {
   return (
     <div className={classes.container}>
       <div className={classes.content}>
-        <Title title={isEditMode ? 'Edit Food' : 'Add Food'} />
+        {/* <Title title={isEditMode ? 'Edit Food' : 'Add Food'} /> */}
+        <h1>Add Food</h1>
         <form
           className={classes.form}
           onSubmit={handleSubmit(submit)}
@@ -76,40 +77,40 @@ export default function FoodEditPage() {
 
           <Input
             type="text"
-            label="Name"
+            label="Food Name"
             {...register('name', { required: true, minLength: 5 })}
             error={errors.name}
           />
 
           <Input
             type="number"
-            label="Price"
+            label="Quanitity (in Kg)"
             {...register('price', { required: true })}
             error={errors.price}
           />
 
           <Input
             type="text"
-            label="Tags"
+            label="City"
             {...register('tags')}
             error={errors.tags}
           />
 
           <Input
             type="text"
-            label="Origins"
+            label="Locality"
             {...register('origins', { required: true })}
             error={errors.origins}
           />
 
           <Input
             type="text"
-            label="Cook Time"
+            label="Expiry Time"
             {...register('cookTime', { required: true })}
             error={errors.cookTime}
           />
 
-          <Button type="submit" text={isEditMode ? 'Update' : 'Create'} />
+          <Button type="submit" text={isEditMode ? 'Update' : 'Upload'} />
         </form>
       </div>
     </div>
