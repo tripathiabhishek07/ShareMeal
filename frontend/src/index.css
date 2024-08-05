@@ -15,6 +15,7 @@ html {
 body {
   background-color: #000319;
   margin: 0;
+  padding: 0;
   /* background-image: url(./images/bg.jpg); */
   font-family: 'Helvetica Neue', Arial, sans-serif; /* body-font */
 }
