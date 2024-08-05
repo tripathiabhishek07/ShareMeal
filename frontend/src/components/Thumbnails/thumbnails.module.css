@@ -13,7 +13,7 @@
 .list li a {
   height: 22.5rem;
   width: 15rem;
-  border: 1px solid whitesmoke;
+  /* border: 1px solid whitesmoke; */
   border-radius: 1rem;
   margin: 1.5rem;
   display: flex;
@@ -26,6 +26,13 @@
 }
 .list li  a:hover{
   transform: scale(1.03);
+}
+@media(max-width:647px){
+  .list li a{
+    height: 22.5rem;
+  width: 19rem;
+
+  }
 }
 
 .image {

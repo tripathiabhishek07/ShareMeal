@@ -9,7 +9,7 @@ export default function Thumbnails({ foods }) {
     <ul className={classes.list}>
       {foods.map(food => (
         <li key={food.id}>
-          <Link to={`/food/${food.id}`}>
+          <Link to={``}>
             <img
               className={classes.image}
               src={`${food.imageUrl}`}
@@ -35,15 +35,15 @@ export default function Thumbnails({ foods }) {
                     
                   ))}
                 </div>
-                <h5>{food.tags}</h5>
+                <h5>City : {food.tags}</h5>
                 
                 
               </div>
               <div className={classes.price}>
               <div className={classes.cook_time}>
-                  Epiry Time : {food.cookTime} Hours
+                  Expiry Time : {food.cookTime} Hours
                 </div>
-                <h5 className='price'>{food.price} Kg</h5>
+                <h5 className='price'>{food.price} </h5>
                 
               </div>
             </div>
