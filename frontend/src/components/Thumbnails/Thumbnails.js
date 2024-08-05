@@ -32,15 +32,19 @@ export default function Thumbnails({ foods }) {
                 <div className={classes.origins}>
                   {food.origins.map(origin => (
                     <span key={origin}><FaLocationDot />  {origin}</span>
+                    
                   ))}
                 </div>
+                <h5>{food.tags}</h5>
+                
                 
               </div>
               <div className={classes.price}>
-                <Price price={food.price} />
-                <div className={classes.cook_time}>
-                  🕒{food.cookTime}
+              <div className={classes.cook_time}>
+                  Epiry Time : {food.cookTime} Hours
                 </div>
+                <h5 className='price'>{food.price} Kg</h5>
+                
               </div>
             </div>
           </Link>

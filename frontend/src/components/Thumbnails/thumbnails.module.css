@@ -60,6 +60,9 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.product_item_footer h5{
+  margin-top: 0.5rem;
+}
 
 .origins span {
   border-radius: 2rem;

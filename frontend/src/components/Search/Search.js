@@ -7,7 +7,7 @@ import { BiSearchAlt } from "react-icons/bi";
 Search.defaultProps = {
   searchRoute: '/search/',
   defaultRoute: '/',
-  placeholder: 'Search your craving !',
+  placeholder: 'Search your city !',
 };
 
 export default function Search({
