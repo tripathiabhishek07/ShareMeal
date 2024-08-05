@@ -13,13 +13,14 @@
 .list li a {
   height: 22.5rem;
   width: 15rem;
+  color:white;
   /* border: 1px solid whitesmoke; */
   border-radius: 1rem;
   margin: 1.5rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  color: #e72929;
+  
   box-shadow: rgba(150, 149, 149, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(237, 236, 236, 0.299) 0px 8px 16px 0px;
      border: 0.0001rem solid #53525277;
   transition: transform 0.2s ease-in-out;
@@ -45,6 +46,7 @@
   padding: 0.5rem 1rem;
   position: relative;
   height: 7rem;
+  color:white;
 }
 
 .favorite {
@@ -66,6 +68,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  color:white;
 }
 .product_item_footer h5{
   margin-top: 0.5rem;
@@ -97,7 +100,7 @@
   /* border: 2px solid red; */
   background-color: #000319;
   justify-content: space-between;
-  color: #414141;
+  color:white;
   margin-top: 0.7rem;
   font-size: 1.1rem;
   

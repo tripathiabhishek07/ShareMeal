@@ -22,8 +22,13 @@
 }
 
 .register {
+  color:white;
   margin-top: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+.register > a{
+  color:white;
 }

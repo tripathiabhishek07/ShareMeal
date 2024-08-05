@@ -59,7 +59,7 @@ export default function FoodsAdminPage() {
             <div key={food.id} className={classes.list_item}>
               <img src={food.imageUrl} alt={food.name} />
               
-              <Link to={'/food/' + food.id} className='foodName'>{food.name}</Link>
+              <Link to={''} className='foodName'>{food.name}</Link>
               {/* <Price price={food.price} /> */}
               <div className={classes.actions}>
                 <Link to={'/admin/editFood/' + food.id}>Edit</Link>

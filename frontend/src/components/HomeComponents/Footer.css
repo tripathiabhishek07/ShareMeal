@@ -1,6 +1,6 @@
 .footer {
   
-  color: #4a4a4a;
+  color:white;
   font-family: sans-serif;
   padding: 8px 16px;
   background-color: #f9fafb;
@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   
-  color: #1a202c;
+  color:white;
   text-decoration: none;
   margin-right: auto;
 }
@@ -50,12 +50,12 @@
 
 .copyright {
   font-size: 0.875rem;
-  color: #bec1dd;
+  color:white;
   margin: 0;
 }
 
 .twitter-link {
-  color: #bec1dd;
+  color:white;
   text-decoration: none;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .social-link {
-  color: #6b7280;
+  color:white;
   margin-left: 12px;
   text-decoration: none;
 }

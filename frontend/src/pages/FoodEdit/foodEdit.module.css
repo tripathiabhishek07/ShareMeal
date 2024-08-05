@@ -4,11 +4,13 @@
   margin-bottom: 10rem;
   /* border: 2px solid red; */
   margin-top: 4rem;
+  color:white;
 }
 
 
 .content,
 .form {
+  color:white;
   display: flex;
   flex-direction: column;
   max-width: 25rem;

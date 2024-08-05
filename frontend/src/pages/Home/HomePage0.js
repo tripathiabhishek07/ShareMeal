@@ -10,7 +10,6 @@ const HomePage0 = () => {
             className="homeContainer"
         >
             <HeroSection />
-            
             <FeatureSection />
             <TeamSection />
             <Footer />
