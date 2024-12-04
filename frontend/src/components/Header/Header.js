@@ -25,7 +25,7 @@ export default function Header() {
           )}
         </div>
         <Link to="/" className={classes.logo}>
-          ShareMeal
+          Sirohi Chaap
         </Link>
       </div>
       <nav className={`${classes.nav} ${menuOpen ? classes.open : ""}`}>

@@ -45,12 +45,14 @@
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .menu {
+
     display: none;
     position: static;
     box-shadow: none;
   }
  
   .menu_container.open .menu {
+    
     display: block;
   }
 }
